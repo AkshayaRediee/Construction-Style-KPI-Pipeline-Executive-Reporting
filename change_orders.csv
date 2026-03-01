@@ -1,0 +1,45 @@
+project_id,co_id,co_date,co_status,co_amount,reason
+1001,9001,2023-12-18,Pending,31100.0,Scope Expansion
+1001,9002,2023-07-27,Rejected,43400.0,Regulatory Change
+1002,9003,2023-05-29,Approved,90600.0,Scope Expansion
+1002,9004,2023-07-29,Approved,139700.0,Material Price Increase
+1002,9005,2023-03-11,Pending,108000.0,Client Request
+1003,9006,2023-01-29,Approved,93000.0,Scope Expansion
+1003,9007,2024-07-31,Approved,102600.0,Material Price Increase
+1003,9008,2023-08-18,Approved,40400.0,Design Change
+1004,9009,2024-05-30,Pending,120200.0,Regulatory Change
+1004,9010,2024-07-13,Approved,109500.0,Material Price Increase
+1004,9011,2024-03-02,Approved,152700.0,Regulatory Change
+1004,9012,2023-06-03,Approved,34700.0,Client Request
+1004,9013,2023-04-28,Approved,114400.0,Design Change
+1004,9014,2023-09-07,Approved,84800.0,Regulatory Change
+1005,9015,2023-03-26,Approved,45500.0,Client Request
+1005,9016,2023-11-07,Approved,94800.0,Client Request
+1006,9017,2023-09-21,Rejected,75800.0,Material Price Increase
+1006,9018,2023-11-04,Pending,109100.0,Regulatory Change
+1006,9019,2023-11-28,Approved,79800.0,Client Request
+1007,9020,2023-03-20,Approved,36300.0,Regulatory Change
+1007,9021,2023-12-10,Pending,126900.0,Regulatory Change
+1007,9022,2023-06-21,Pending,154300.0,Design Change
+1007,9023,2023-08-06,Approved,84500.0,Client Request
+1007,9024,2023-09-13,Pending,72300.0,Regulatory Change
+1008,9025,2023-07-22,Approved,89700.0,Design Change
+1008,9026,2024-01-04,Approved,73600.0,Material Price Increase
+1009,9027,2024-02-29,Approved,78900.0,Material Price Increase
+1009,9028,2023-05-06,Approved,117100.0,Regulatory Change
+1009,9029,2023-08-24,Pending,49200.0,Client Request
+1009,9030,2023-06-06,Approved,99200.0,Regulatory Change
+1009,9031,2023-05-21,Approved,117300.0,Client Request
+1009,9032,2024-02-27,Approved,59300.0,Scope Expansion
+1010,9033,2023-03-06,Rejected,64500.0,Material Price Increase
+1010,9034,2023-09-20,Approved,78900.0,Client Request
+1011,9035,2023-10-24,Approved,98800.0,Design Change
+1011,9036,2024-10-15,Approved,58000.0,Client Request
+1011,9037,2023-11-04,Pending,61500.0,Client Request
+1011,9038,2024-02-27,Pending,93500.0,Client Request
+1012,9039,2023-04-06,Rejected,110700.0,Material Price Increase
+1012,9040,2023-06-18,Approved,143600.0,Client Request
+1012,9041,2024-01-06,Approved,42800.0,Material Price Increase
+1012,9042,2023-07-03,Approved,49200.0,Design Change
+1012,9043,2023-04-18,Approved,120500.0,Client Request
+1012,9044,2023-04-12,Approved,105300.0,Material Price Increase

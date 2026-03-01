@@ -1,0 +1,423 @@
+{
+  "datasets": [
+    {
+      "name": "87975129",
+      "displayName": "Portofolio Summary",
+      "queryLines": [
+        "SELECT\r\n",
+        "  SUM(baseline_budget) AS total_baseline_budget,\r\n",
+        "  SUM(total_actual_cost) AS total_actual_cost,\r\n",
+        "  SUM(total_forecast_budget) AS total_forecast_budget,\r\n",
+        "  SUM(cost_variance_amount) AS total_cost_variance_amount\r\n",
+        "FROM construction_kpi.gold_project_kpis;"
+      ]
+    },
+    {
+      "name": "ebccff55",
+      "displayName": "Risk Status Count",
+      "queryLines": [
+        "SELECT\r\n",
+        "  risk_status,\r\n",
+        "  COUNT(*) AS project_count\r\n",
+        "FROM construction_kpi.gold_project_kpis\r\n",
+        "GROUP BY risk_status\r\n",
+        "ORDER BY project_count DESC;"
+      ]
+    },
+    {
+      "name": "da9152ea",
+      "displayName": "Top Overrun Projects",
+      "queryLines": [
+        "SELECT\r\n",
+        "  project_id,\r\n",
+        "  project_name,\r\n",
+        "  client_name,\r\n",
+        "  cost_variance_amount,\r\n",
+        "  cost_variance_pct,\r\n",
+        "  latest_delay_days,\r\n",
+        "  risk_status\r\n",
+        "FROM construction_kpi.gold_project_kpis\r\n",
+        "ORDER BY cost_variance_pct DESC\r\n",
+        "LIMIT 10;"
+      ]
+    },
+    {
+      "name": "e157c0bb",
+      "displayName": "Delay vs Cost Variance",
+      "queryLines": [
+        "SELECT\r\n",
+        "  project_id,\r\n",
+        "  project_name,\r\n",
+        "  latest_delay_days,\r\n",
+        "  cost_variance_pct,\r\n",
+        "  risk_status\r\n",
+        "FROM construction_kpi.gold_project_kpis;"
+      ]
+    },
+    {
+      "name": "3f538d6a",
+      "displayName": "Portofolio Breakdown by Region",
+      "queryLines": [
+        "SELECT\r\n",
+        "  region,\r\n",
+        "  COUNT(*) AS project_count,\r\n",
+        "  SUM(total_forecast_budget) AS forecast_budget,\r\n",
+        "  AVG(cost_variance_pct) AS avg_cost_variance_pct,\r\n",
+        "  AVG(latest_delay_days) AS avg_delay_days\r\n",
+        "FROM construction_kpi.gold_project_kpis\r\n",
+        "GROUP BY region\r\n",
+        "ORDER BY forecast_budget DESC;"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "c9394606",
+      "displayName": "Project ControlsKPI - Executive Dashboard",
+      "layout": [
+        {
+          "widget": {
+            "name": "portofolio-summary",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "87975129",
+                  "fields": [
+                    {
+                      "name": "total_baseline_budget",
+                      "expression": "`total_baseline_budget`"
+                    },
+                    {
+                      "name": "total_actual_cost",
+                      "expression": "`total_actual_cost`"
+                    },
+                    {
+                      "name": "total_cost_variance_amount",
+                      "expression": "`total_cost_variance_amount`"
+                    },
+                    {
+                      "name": "total_forecast_budget",
+                      "expression": "`total_forecast_budget`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "frame": {
+                "showTitle": true,
+                "title": "                                                                                              Portofolio Summary (KPI numbers)"
+              },
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "total_baseline_budget"
+                  },
+                  {
+                    "fieldName": "total_actual_cost"
+                  },
+                  {
+                    "fieldName": "total_cost_variance_amount"
+                  },
+                  {
+                    "fieldName": "total_forecast_budget"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "risk-status-count",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ebccff55",
+                  "fields": [
+                    {
+                      "name": "risk_status",
+                      "expression": "`risk_status`"
+                    },
+                    {
+                      "name": "project_count",
+                      "expression": "`project_count`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "title": "                                             Risk Status Count   "
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "risk_status",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "project_count",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 5,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "delay-vs-cost-variance",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "e157c0bb",
+                  "fields": [
+                    {
+                      "name": "risk_status",
+                      "expression": "`risk_status`"
+                    },
+                    {
+                      "name": "latest_delay_days",
+                      "expression": "`latest_delay_days`"
+                    },
+                    {
+                      "name": "cost_variance_pct",
+                      "expression": "`cost_variance_pct`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "title": "                                           Delay vs Cost Variance"
+              },
+              "mark": {
+                "opacity": 0.74
+              },
+              "widgetType": "scatter",
+              "encodings": {
+                "x": {
+                  "fieldName": "latest_delay_days",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "y": {
+                  "fieldName": "cost_variance_pct",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "risk_status",
+                  "legend": {
+                    "hideTitle": false,
+                    "hide": false,
+                    "position": "right"
+                  },
+                  "scale": {
+                    "type": "categorical",
+                    "mappings": [
+                      {
+                        "value": "GREEN",
+                        "color": {
+                          "themeColorType": "visualizationColors",
+                          "position": 3
+                        }
+                      },
+                      {
+                        "value": "RED",
+                        "color": {
+                          "themeColorType": "visualizationColors",
+                          "position": 4
+                        }
+                      },
+                      {
+                        "value": "AMBER",
+                        "color": {
+                          "themeColorType": "visualizationColors",
+                          "position": 2
+                        }
+                      }
+                    ],
+                    "sort": {
+                      "by": "natural-order-reversed"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 5,
+            "y": 2,
+            "width": 7,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "a90ffaad",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "da9152ea",
+                  "fields": [
+                    {
+                      "name": "project_id",
+                      "expression": "`project_id`"
+                    },
+                    {
+                      "name": "project_name",
+                      "expression": "`project_name`"
+                    },
+                    {
+                      "name": "client_name",
+                      "expression": "`client_name`"
+                    },
+                    {
+                      "name": "cost_variance_pct",
+                      "expression": "`cost_variance_pct`"
+                    },
+                    {
+                      "name": "latest_delay_days",
+                      "expression": "`latest_delay_days`"
+                    },
+                    {
+                      "name": "risk_status",
+                      "expression": "`risk_status`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "project_id"
+                  },
+                  {
+                    "fieldName": "project_name"
+                  },
+                  {
+                    "fieldName": "client_name"
+                  },
+                  {
+                    "fieldName": "cost_variance_pct"
+                  },
+                  {
+                    "fieldName": "latest_delay_days"
+                  },
+                  {
+                    "fieldName": "risk_status"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 8,
+            "width": 12,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "portofolio-breakdown-budget",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "3f538d6a",
+                  "fields": [
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    },
+                    {
+                      "name": "forecast_budget",
+                      "expression": "`forecast_budget`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "frame": {
+                "showTitle": true,
+                "title": "                                                    Portofolio Breakdown by Budget  "
+              },
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "region",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "forecast_budget",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 15,
+            "width": 8,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}

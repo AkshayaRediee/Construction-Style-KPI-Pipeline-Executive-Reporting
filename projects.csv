@@ -1,0 +1,13 @@
+project_id,project_name,client_name,region,project_type,start_date,baseline_finish_date,baseline_budget,project_manager
+1001,City Hospital Expansion,Metro Health Group,Northeast,Industrial,2023-03-23,2024-09-23,2500000.0,John Smith
+1002,Riverside Office Tower,UrbanCore Properties,West,Education,2023-01-15,2023-12-15,2500000.0,Sarah Johnson
+1003,Lakeside Apartments Phase I,GreenStay Residential,Southwest,Education,2023-01-04,2024-08-04,2500000.0,Michael Brown
+1004,Northside Logistics Park,FastTrack Logistics,Southeast,Commercial,2023-04-05,2024-08-05,2500000.0,Emily Davis
+1005,Greenfield Solar Farm,Sunrise Energy Partners,Midwest,Industrial,2023-02-05,2023-12-05,2500000.0,David Wilson
+1006,Downtown Transit Hub Upgrade,Metro Transit Authority,Midwest,Infrastructure,2023-02-01,2023-12-01,2500000.0,Karen Miller
+1007,Westview High School Renovation,Westview School District,Midwest,Healthcare,2023-01-29,2023-12-29,2500000.0,Robert Taylor
+1008,Eastside Data Center,CloudRail Technologies,West,Industrial,2023-01-18,2024-02-18,2500000.0,Jessica Martinez
+1009,South Creek Wastewater Plant,City of South Creek,Southeast,Commercial,2023-04-05,2024-05-05,2500000.0,Christopher Lee
+1010,Midtown Mixed-Use Complex,Downtown Dev Group,Southwest,Education,2023-01-14,2024-07-14,2500000.0,Amanda Thompson
+1011,Regional Headquarters Fit-Out,GlobalTech Industries,Midwest,Infrastructure,2023-03-28,2024-10-28,2500000.0,Ryan Anderson
+1012,Community Sports Arena,City of Brookside,West,Industrial,2023-04-05,2024-02-05,2500000.0,Megan Clark

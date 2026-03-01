@@ -1,0 +1,509 @@
+project_id,cost_date,cost_category,vendor,actual_cost
+1001,2023-03-01,Subcontract,Elite Plumbing Group,14999.92
+1001,2023-03-01,Equipment,Stadium Rentals Inc,20742.6
+1001,2023-03-01,Labor,Campus Builders LLC,52242.07
+1001,2023-04-01,Equipment,Metro Equipment Rentals,17178.63
+1001,2023-04-01,Materials,Urban Steel Co,41969.86
+1001,2023-04-01,Labor,Campus Builders LLC,41615.57
+1001,2023-04-01,Subcontract,Elevate Interiors,23893.49
+1001,2023-05-01,Equipment,CoolAir Rentals,14186.2
+1001,2023-05-01,Other,Metro Consulting,8124.97
+1001,2023-05-01,Labor,Campus Builders LLC,62377.86
+1001,2023-05-01,Materials,Urban Steel Co,46843.59
+1001,2023-06-01,Equipment,Metro Equipment Rentals,24005.11
+1001,2023-06-01,Other,LogiConsult Partners,10011.23
+1001,2023-06-01,Subcontract,HighSky Electrical,51239.81
+1001,2023-06-01,Labor,Prime Builders Inc,32024.9
+1001,2023-06-01,Materials,SteelWorks Supply,47661.38
+1001,2023-07-01,Subcontract,BrightLights Systems,30286.99
+1001,2023-07-01,Equipment,GreenField Rentals,16514.06
+1001,2023-07-01,Materials,Residence Supply Co,59872.98
+1001,2023-08-01,Equipment,Stadium Rentals Inc,25908.41
+1001,2023-08-01,Materials,OfficePlus Supply,64020.64
+1001,2023-08-01,Other,Metro Consulting,9373.88
+1001,2023-08-01,Subcontract,Premier Facades LLC,32714.56
+1001,2023-09-01,Materials,SolarGrid Components,49693.4
+1001,2023-09-01,Other,LogiConsult Partners,5262.8
+1001,2023-09-01,Labor,PrimeFit Contractors,46415.7
+1001,2023-09-01,Subcontract,SignalTech Systems,23259.66
+1001,2023-09-01,Equipment,Metro Equipment Rentals,17747.29
+1001,2023-10-01,Labor,Sunrise Construction,39815.3
+1001,2023-10-01,Equipment,Metro Equipment Rentals,17814.0
+1001,2023-10-01,Materials,SteelWorks Supply,52279.85
+1001,2023-11-01,Equipment,Stadium Rentals Inc,24880.05
+1001,2023-11-01,Materials,ServerRack Supply Co,54086.6
+1001,2023-11-01,Other,EnviroConsult Group,5508.46
+1001,2023-11-01,Subcontract,HighSky Electrical,35714.46
+1001,2023-11-01,Labor,Lakeview Construction,56880.48
+1001,2023-12-01,Other,IT Commissioning Ltd,4307.35
+1001,2023-12-01,Equipment,CoolAir Rentals,22217.58
+1001,2023-12-01,Subcontract,Elite Interiors Group,34316.94
+1002,2023-01-01,Materials,Urban Steel Co,63864.16
+1002,2023-01-01,Other,City Services Co,15678.24
+1002,2023-01-01,Equipment,Metro Equipment Rentals,23425.62
+1002,2023-01-01,Subcontract,Elite Plumbing Group,32635.03
+1002,2023-02-01,Materials,Scholars Supply Co,74275.97
+1002,2023-02-01,Subcontract,Premier Facades LLC,65434.98
+1002,2023-02-01,Equipment,HeavyHaul Rentals,27059.94
+1002,2023-02-01,Labor,ClearFlow Construction,70058.75
+1002,2023-02-01,Other,Transit Advisory Group,11768.02
+1002,2023-03-01,Labor,Prime Builders Inc,65081.79
+1002,2023-03-01,Other,Transit Advisory Group,15816.27
+1002,2023-03-01,Equipment,HeavyHaul Rentals,32509.09
+1002,2023-03-01,Materials,Residence Supply Co,79581.04
+1002,2023-03-01,Subcontract,SecureNet Cabling,41133.11
+1002,2023-04-01,Equipment,Metro Equipment Rentals,31331.59
+1002,2023-04-01,Materials,OfficePlus Supply,100234.16
+1002,2023-04-01,Other,Transit Advisory Group,18706.31
+1002,2023-05-01,Other,City Services Co,19361.74
+1002,2023-05-01,Materials,Cityscape Supply Co,91238.3
+1002,2023-05-01,Labor,TransitBuild JV,79954.25
+1002,2023-05-01,Subcontract,SecureNet Cabling,55671.99
+1002,2023-05-01,Equipment,Metro Equipment Rentals,44232.8
+1002,2023-06-01,Equipment,Metro Equipment Rentals,24552.41
+1002,2023-06-01,Other,LogiConsult Partners,26369.81
+1002,2023-06-01,Labor,UrbanCore Builders,68557.75
+1002,2023-07-01,Labor,ClearFlow Construction,91902.55
+1002,2023-07-01,Subcontract,Elite Plumbing Group,39620.82
+1002,2023-07-01,Other,EnviroConsult Group,18912.89
+1002,2023-08-01,Subcontract,PipeMasters LLC,28570.97
+1002,2023-08-01,Materials,SportsField Supply Co,76449.58
+1002,2023-08-01,Other,LogiConsult Partners,19021.25
+1002,2023-08-01,Equipment,Stadium Rentals Inc,33338.12
+1002,2023-08-01,Labor,Sunrise Construction,68399.68
+1002,2023-09-01,Equipment,Metro Equipment Rentals,37193.39
+1002,2023-09-01,Subcontract,Precision Paving LLC,49791.1
+1002,2023-09-01,Other,LogiConsult Partners,21571.08
+1002,2023-09-01,Materials,Urban Steel Co,84074.05
+1002,2023-10-01,Labor,ABC Construction,95824.41
+1002,2023-10-01,Materials,Urban Steel Co,97071.65
+1002,2023-10-01,Equipment,Stadium Rentals Inc,36815.92
+1002,2023-10-01,Other,City Services Co,18217.74
+1002,2023-11-01,Labor,Prime Builders Inc,62652.74
+1002,2023-11-01,Other,LogiConsult Partners,9860.6
+1002,2023-11-01,Materials,SolarGrid Components,71994.74
+1002,2023-12-01,Subcontract,Precision Paving LLC,45559.25
+1002,2023-12-01,Materials,ServerRack Supply Co,85121.84
+1002,2023-12-01,Equipment,HeavyHaul Rentals,38177.0
+1002,2023-12-01,Labor,Industrial Build Corp,86562.15
+1002,2023-12-01,Other,Metro Consulting,15895.8
+1003,2023-01-01,Subcontract,Elite Interiors Group,35673.76
+1003,2023-01-01,Equipment,HeavyHaul Rentals,19144.68
+1003,2023-01-01,Materials,SportsField Supply Co,60630.56
+1003,2023-02-01,Labor,ArenaBuild Contractors,39818.16
+1003,2023-02-01,Other,SchoolBoard Services,8753.54
+1003,2023-02-01,Materials,Urban Steel Co,43619.69
+1003,2023-03-01,Materials,ServerRack Supply Co,44082.27
+1003,2023-03-01,Other,EnviroConsult Group,8766.33
+1003,2023-03-01,Equipment,HeavyHaul Rentals,18153.58
+1003,2023-04-01,Equipment,Metro Equipment Rentals,20068.46
+1003,2023-04-01,Subcontract,SecureNet Cabling,22083.98
+1003,2023-04-01,Labor,ClearFlow Construction,38609.8
+1003,2023-05-01,Labor,Industrial Build Corp,39532.23
+1003,2023-05-01,Other,EnviroConsult Group,6092.54
+1003,2023-05-01,Subcontract,Elite Interiors Group,20856.45
+1003,2023-06-01,Subcontract,Elite Plumbing Group,35293.84
+1003,2023-06-01,Materials,Scholars Supply Co,45310.17
+1003,2023-06-01,Other,City Services Co,8085.22
+1003,2023-06-01,Labor,Campus Builders LLC,30436.7
+1003,2023-07-01,Subcontract,Elite Plumbing Group,29632.29
+1003,2023-07-01,Equipment,HighLift Rentals,12162.77
+1003,2023-07-01,Materials,SolarGrid Components,52530.94
+1003,2023-07-01,Other,LogiConsult Partners,8360.19
+1003,2023-08-01,Other,SchoolBoard Services,6488.81
+1003,2023-08-01,Labor,ABC Construction,35505.63
+1003,2023-08-01,Equipment,Metro Equipment Rentals,23568.2
+1003,2023-09-01,Subcontract,Elevate Interiors,27827.8
+1003,2023-09-01,Materials,Cityscape Supply Co,39404.57
+1003,2023-09-01,Labor,Prime Builders Inc,41237.67
+1003,2023-09-01,Equipment,Stadium Rentals Inc,12995.39
+1003,2023-09-01,Other,LogiConsult Partners,9900.81
+1003,2023-10-01,Labor,UrbanCore Builders,39948.04
+1003,2023-10-01,Materials,Urban Steel Co,36827.46
+1003,2023-10-01,Equipment,HeavyHaul Rentals,23815.28
+1003,2023-10-01,Other,SchoolBoard Services,5891.73
+1003,2023-11-01,Materials,Scholars Supply Co,32482.33
+1003,2023-11-01,Equipment,HighLift Rentals,19904.03
+1003,2023-11-01,Labor,PrimeFit Contractors,45367.1
+1003,2023-11-01,Other,Transit Advisory Group,4211.21
+1003,2023-12-01,Equipment,CoolAir Rentals,14596.73
+1003,2023-12-01,Labor,UrbanCore Builders,43918.97
+1003,2023-12-01,Subcontract,Elevate Interiors,36187.71
+1003,2023-12-01,Materials,Urban Steel Co,46963.98
+1004,2023-04-01,Materials,SteelWorks Supply,74526.36
+1004,2023-04-01,Equipment,GreenField Rentals,20469.59
+1004,2023-04-01,Labor,Sunrise Construction,59374.82
+1004,2023-04-01,Other,EnviroConsult Group,11166.03
+1004,2023-04-01,Subcontract,SecureNet Cabling,62438.71
+1004,2023-05-01,Equipment,HighLift Rentals,21221.35
+1004,2023-05-01,Labor,Sunrise Construction,86065.98
+1004,2023-05-01,Other,Metro Consulting,27779.2
+1004,2023-05-01,Materials,Urban Steel Co,81634.87
+1004,2023-05-01,Subcontract,PipeMasters LLC,58138.14
+1004,2023-06-01,Equipment,HighLift Rentals,36826.1
+1004,2023-06-01,Other,SchoolBoard Services,10771.97
+1004,2023-06-01,Subcontract,Precision Paving LLC,57049.73
+1004,2023-07-01,Equipment,Stadium Rentals Inc,37736.95
+1004,2023-07-01,Subcontract,Elite Interiors Group,45601.09
+1004,2023-07-01,Materials,SolarGrid Components,64703.93
+1004,2023-07-01,Labor,ABC Construction,48290.33
+1004,2023-07-01,Other,City Services Co,8033.5
+1004,2023-08-01,Materials,WaterWorks Supply,83199.78
+1004,2023-08-01,Equipment,Stadium Rentals Inc,19994.8
+1004,2023-08-01,Labor,Campus Builders LLC,79445.63
+1004,2023-08-01,Other,City Services Co,11254.7
+1004,2023-09-01,Labor,ABC Construction,63825.05
+1004,2023-09-01,Materials,Urban Rail Supply,82896.08
+1004,2023-09-01,Equipment,CoolAir Rentals,27420.87
+1004,2023-10-01,Materials,Urban Rail Supply,104494.61
+1004,2023-10-01,Subcontract,HealthBuild Contractors,53762.9
+1004,2023-10-01,Labor,TransitBuild JV,83598.42
+1004,2023-10-01,Equipment,HighLift Rentals,20565.21
+1004,2023-10-01,Other,LogiConsult Partners,18118.05
+1004,2023-11-01,Labor,Industrial Build Corp,50084.9
+1004,2023-11-01,Equipment,HighLift Rentals,32427.88
+1004,2023-11-01,Subcontract,Elite Plumbing Group,25107.15
+1004,2023-11-01,Materials,Scholars Supply Co,57249.68
+1004,2023-11-01,Other,City Services Co,14783.97
+1004,2023-12-01,Equipment,Stadium Rentals Inc,31762.6
+1004,2023-12-01,Subcontract,Precision Paving LLC,61965.3
+1004,2023-12-01,Other,Transit Advisory Group,6776.31
+1005,2023-02-01,Labor,DataCore Construction,34411.12
+1005,2023-02-01,Subcontract,Precision Paving LLC,61706.53
+1005,2023-02-01,Other,LogiConsult Partners,31128.17
+1005,2023-03-01,Equipment,Metro Equipment Rentals,38319.77
+1005,2023-03-01,Other,LogiConsult Partners,20894.38
+1005,2023-03-01,Labor,Campus Builders LLC,92093.16
+1005,2023-03-01,Subcontract,SignalTech Systems,92811.95
+1005,2023-04-01,Labor,PrimeFit Contractors,105621.85
+1005,2023-04-01,Equipment,CoolAir Rentals,43676.59
+1005,2023-04-01,Materials,Urban Rail Supply,72218.73
+1005,2023-04-01,Subcontract,HealthBuild Contractors,62393.22
+1005,2023-05-01,Equipment,GreenField Rentals,30813.06
+1005,2023-05-01,Materials,BlueRiver Supplies,81496.55
+1005,2023-05-01,Other,Metro Consulting,18186.04
+1005,2023-06-01,Subcontract,Premier Facades LLC,51847.93
+1005,2023-06-01,Equipment,CoolAir Rentals,31667.67
+1005,2023-06-01,Other,Metro Consulting,26952.9
+1005,2023-06-01,Materials,Scholars Supply Co,80728.5
+1005,2023-06-01,Labor,UrbanCore Builders,59936.94
+1005,2023-07-01,Equipment,HeavyHaul Rentals,49299.23
+1005,2023-07-01,Labor,ABC Construction,65515.95
+1005,2023-07-01,Other,LogiConsult Partners,20188.74
+1005,2023-08-01,Subcontract,Premier Facades LLC,58491.99
+1005,2023-08-01,Labor,TransitBuild JV,60763.65
+1005,2023-08-01,Equipment,Stadium Rentals Inc,17798.16
+1005,2023-08-01,Materials,Urban Steel Co,130561.31
+1005,2023-09-01,Equipment,HeavyHaul Rentals,33414.45
+1005,2023-09-01,Other,Transit Advisory Group,17690.09
+1005,2023-09-01,Subcontract,PipeMasters LLC,66847.37
+1005,2023-09-01,Materials,Residence Supply Co,82969.42
+1005,2023-09-01,Labor,Industrial Build Corp,58396.09
+1005,2023-10-01,Subcontract,Elite Interiors Group,60352.54
+1005,2023-10-01,Materials,WaterWorks Supply,88109.32
+1005,2023-10-01,Equipment,Metro Equipment Rentals,52653.2
+1005,2023-10-01,Other,Transit Advisory Group,15506.42
+1005,2023-11-01,Materials,ServerRack Supply Co,74956.63
+1005,2023-11-01,Subcontract,SecureNet Cabling,47070.36
+1005,2023-11-01,Equipment,HeavyHaul Rentals,35941.26
+1005,2023-11-01,Other,LogiConsult Partners,9995.27
+1005,2023-12-01,Subcontract,PipeMasters LLC,43345.39
+1005,2023-12-01,Materials,OfficePlus Supply,75245.92
+1005,2023-12-01,Equipment,Stadium Rentals Inc,41867.0
+1005,2023-12-01,Labor,UrbanCore Builders,53279.95
+1005,2023-12-01,Other,SchoolBoard Services,28315.29
+1006,2023-02-01,Materials,SteelWorks Supply,59053.62
+1006,2023-02-01,Equipment,HighLift Rentals,30341.61
+1006,2023-02-01,Labor,ABC Construction,89067.62
+1006,2023-03-01,Materials,Urban Steel Co,110393.59
+1006,2023-03-01,Subcontract,SecureNet Cabling,71192.67
+1006,2023-03-01,Equipment,HeavyHaul Rentals,34716.78
+1006,2023-04-01,Other,IT Commissioning Ltd,23458.67
+1006,2023-04-01,Materials,SteelWorks Supply,96200.74
+1006,2023-04-01,Equipment,HighLift Rentals,34670.3
+1006,2023-04-01,Subcontract,BrightLights Systems,65489.59
+1006,2023-04-01,Labor,ArenaBuild Contractors,100192.2
+1006,2023-05-01,Labor,Lakeview Construction,56707.69
+1006,2023-05-01,Subcontract,PipeMasters LLC,44818.36
+1006,2023-05-01,Other,DesignPartners Ltd,14133.87
+1006,2023-06-01,Other,DesignPartners Ltd,14520.92
+1006,2023-06-01,Materials,Residence Supply Co,91267.87
+1006,2023-06-01,Labor,DataCore Construction,86834.34
+1006,2023-07-01,Other,EnviroConsult Group,24670.77
+1006,2023-07-01,Equipment,Stadium Rentals Inc,25115.45
+1006,2023-07-01,Materials,ServerRack Supply Co,96170.7
+1006,2023-07-01,Subcontract,SecureNet Cabling,70580.86
+1006,2023-07-01,Labor,Sunrise Construction,99292.27
+1006,2023-08-01,Equipment,HighLift Rentals,50592.95
+1006,2023-08-01,Subcontract,HighSky Electrical,62845.52
+1006,2023-08-01,Other,DesignPartners Ltd,17354.59
+1006,2023-09-01,Equipment,GreenField Rentals,31425.35
+1006,2023-09-01,Materials,Urban Rail Supply,95541.9
+1006,2023-09-01,Subcontract,PipeMasters LLC,61643.13
+1006,2023-10-01,Materials,Scholars Supply Co,91999.15
+1006,2023-10-01,Other,EnviroConsult Group,20243.68
+1006,2023-10-01,Labor,ArenaBuild Contractors,101406.03
+1006,2023-11-01,Labor,TransitBuild JV,76689.03
+1006,2023-11-01,Subcontract,PipeMasters LLC,45451.97
+1006,2023-11-01,Materials,ServerRack Supply Co,72437.16
+1006,2023-12-01,Labor,UrbanCore Builders,89667.36
+1006,2023-12-01,Materials,SportsField Supply Co,78147.6
+1006,2023-12-01,Subcontract,HealthBuild Contractors,64424.24
+1006,2023-12-01,Equipment,CoolAir Rentals,34217.18
+1007,2023-01-01,Subcontract,Elite Interiors Group,93904.75
+1007,2023-01-01,Labor,Campus Builders LLC,86913.05
+1007,2023-01-01,Materials,WaterWorks Supply,133245.56
+1007,2023-01-01,Equipment,Stadium Rentals Inc,24782.76
+1007,2023-02-01,Other,IT Commissioning Ltd,12553.91
+1007,2023-02-01,Materials,ServerRack Supply Co,95986.48
+1007,2023-02-01,Subcontract,HealthBuild Contractors,64496.66
+1007,2023-02-01,Labor,Campus Builders LLC,66345.26
+1007,2023-02-01,Equipment,GreenField Rentals,31934.36
+1007,2023-03-01,Subcontract,Elite Interiors Group,60816.25
+1007,2023-03-01,Materials,Cityscape Supply Co,131891.59
+1007,2023-03-01,Other,City Services Co,24977.0
+1007,2023-03-01,Labor,Prime Builders Inc,88402.95
+1007,2023-03-01,Equipment,Stadium Rentals Inc,46388.5
+1007,2023-04-01,Materials,SolarGrid Components,114154.44
+1007,2023-04-01,Subcontract,Elite Interiors Group,56089.95
+1007,2023-04-01,Labor,TransitBuild JV,83575.9
+1007,2023-04-01,Equipment,HighLift Rentals,54593.41
+1007,2023-05-01,Equipment,HeavyHaul Rentals,36424.23
+1007,2023-05-01,Other,Transit Advisory Group,16772.43
+1007,2023-05-01,Materials,Urban Steel Co,102839.72
+1007,2023-05-01,Subcontract,SecureNet Cabling,60768.58
+1007,2023-06-01,Other,LogiConsult Partners,26198.38
+1007,2023-06-01,Labor,PrimeFit Contractors,87310.14
+1007,2023-06-01,Materials,Urban Steel Co,92720.47
+1007,2023-07-01,Labor,UrbanCore Builders,71821.64
+1007,2023-07-01,Other,EnviroConsult Group,17226.14
+1007,2023-07-01,Subcontract,Precision Paving LLC,94055.62
+1007,2023-07-01,Equipment,HighLift Rentals,48361.69
+1007,2023-07-01,Materials,ServerRack Supply Co,77780.49
+1007,2023-08-01,Labor,Lakeview Construction,132545.52
+1007,2023-08-01,Materials,Cityscape Supply Co,91966.71
+1007,2023-08-01,Subcontract,Premier Facades LLC,72383.39
+1007,2023-08-01,Equipment,Stadium Rentals Inc,36559.96
+1007,2023-08-01,Other,Metro Consulting,14459.97
+1007,2023-09-01,Equipment,Metro Equipment Rentals,51341.98
+1007,2023-09-01,Labor,Sunrise Construction,86524.88
+1007,2023-09-01,Other,IT Commissioning Ltd,21429.11
+1007,2023-10-01,Materials,Urban Steel Co,134767.85
+1007,2023-10-01,Labor,ArenaBuild Contractors,100792.8
+1007,2023-10-01,Equipment,GreenField Rentals,65341.48
+1007,2023-10-01,Subcontract,BrightLights Systems,63101.05
+1007,2023-11-01,Labor,Prime Builders Inc,108165.83
+1007,2023-11-01,Other,SchoolBoard Services,20543.27
+1007,2023-11-01,Materials,BlueRiver Supplies,122827.95
+1007,2023-11-01,Equipment,HeavyHaul Rentals,41931.5
+1007,2023-11-01,Subcontract,SecureNet Cabling,72156.24
+1007,2023-12-01,Subcontract,SecureNet Cabling,100899.55
+1007,2023-12-01,Equipment,Stadium Rentals Inc,22265.86
+1007,2023-12-01,Other,EnviroConsult Group,13724.67
+1008,2023-01-01,Materials,ServerRack Supply Co,57278.1
+1008,2023-01-01,Equipment,HeavyHaul Rentals,27450.91
+1008,2023-01-01,Subcontract,Premier Facades LLC,39826.32
+1008,2023-01-01,Other,Transit Advisory Group,12415.13
+1008,2023-02-01,Materials,SteelWorks Supply,102483.04
+1008,2023-02-01,Labor,DataCore Construction,68362.23
+1008,2023-02-01,Other,IT Commissioning Ltd,8791.59
+1008,2023-02-01,Equipment,GreenField Rentals,33313.18
+1008,2023-03-01,Subcontract,SecureNet Cabling,57740.12
+1008,2023-03-01,Equipment,HighLift Rentals,24940.34
+1008,2023-03-01,Labor,TransitBuild JV,66090.04
+1008,2023-04-01,Equipment,CoolAir Rentals,33464.43
+1008,2023-04-01,Other,City Services Co,6226.53
+1008,2023-04-01,Subcontract,PipeMasters LLC,51935.47
+1008,2023-04-01,Materials,SteelWorks Supply,74868.25
+1008,2023-05-01,Materials,WaterWorks Supply,83053.2
+1008,2023-05-01,Subcontract,Precision Paving LLC,28894.84
+1008,2023-05-01,Other,DesignPartners Ltd,8605.49
+1008,2023-06-01,Subcontract,Precision Paving LLC,45681.6
+1008,2023-06-01,Other,IT Commissioning Ltd,6379.09
+1008,2023-06-01,Labor,ArenaBuild Contractors,60011.22
+1008,2023-06-01,Equipment,HighLift Rentals,36835.33
+1008,2023-06-01,Materials,SolarGrid Components,86117.14
+1008,2023-07-01,Other,SchoolBoard Services,17234.73
+1008,2023-07-01,Equipment,GreenField Rentals,26974.03
+1008,2023-07-01,Materials,SportsField Supply Co,76601.44
+1008,2023-07-01,Subcontract,SecureNet Cabling,40343.07
+1008,2023-07-01,Labor,Sunrise Construction,59519.02
+1008,2023-08-01,Equipment,GreenField Rentals,21161.54
+1008,2023-08-01,Materials,Urban Steel Co,72701.16
+1008,2023-08-01,Labor,ArenaBuild Contractors,83812.28
+1008,2023-08-01,Other,EnviroConsult Group,13702.11
+1008,2023-09-01,Materials,SportsField Supply Co,69646.03
+1008,2023-09-01,Subcontract,Premier Facades LLC,62071.15
+1008,2023-09-01,Other,Transit Advisory Group,16297.55
+1008,2023-10-01,Materials,Urban Rail Supply,61593.14
+1008,2023-10-01,Equipment,HighLift Rentals,27396.97
+1008,2023-10-01,Labor,Sunrise Construction,81840.89
+1008,2023-11-01,Other,City Services Co,5968.39
+1008,2023-11-01,Materials,BlueRiver Supplies,75383.97
+1008,2023-11-01,Subcontract,PipeMasters LLC,42100.14
+1008,2023-12-01,Materials,Cityscape Supply Co,77148.83
+1008,2023-12-01,Subcontract,HighSky Electrical,40793.09
+1008,2023-12-01,Labor,DataCore Construction,50481.74
+1008,2023-12-01,Equipment,HeavyHaul Rentals,20787.75
+1009,2023-04-01,Equipment,HeavyHaul Rentals,29462.25
+1009,2023-04-01,Materials,Urban Steel Co,93202.33
+1009,2023-04-01,Labor,Prime Builders Inc,70931.06
+1009,2023-04-01,Subcontract,Elite Interiors Group,66067.94
+1009,2023-05-01,Labor,UrbanCore Builders,73438.13
+1009,2023-05-01,Other,Transit Advisory Group,21941.14
+1009,2023-05-01,Subcontract,Elevate Interiors,48218.36
+1009,2023-05-01,Equipment,HighLift Rentals,16321.49
+1009,2023-06-01,Other,LogiConsult Partners,16030.0
+1009,2023-06-01,Subcontract,PipeMasters LLC,32643.4
+1009,2023-06-01,Equipment,HeavyHaul Rentals,38668.13
+1009,2023-07-01,Subcontract,HighSky Electrical,44624.91
+1009,2023-07-01,Equipment,CoolAir Rentals,43560.8
+1009,2023-07-01,Other,City Services Co,9362.26
+1009,2023-07-01,Materials,Cityscape Supply Co,109370.0
+1009,2023-08-01,Labor,PrimeFit Contractors,73112.64
+1009,2023-08-01,Materials,Urban Steel Co,78375.83
+1009,2023-08-01,Equipment,HighLift Rentals,26662.24
+1009,2023-08-01,Other,LogiConsult Partners,13681.07
+1009,2023-08-01,Subcontract,Elite Plumbing Group,76463.02
+1009,2023-09-01,Labor,ArenaBuild Contractors,99305.54
+1009,2023-09-01,Materials,Cityscape Supply Co,81815.58
+1009,2023-09-01,Other,DesignPartners Ltd,17935.82
+1009,2023-09-01,Subcontract,HighSky Electrical,79966.68
+1009,2023-09-01,Equipment,Metro Equipment Rentals,38622.77
+1009,2023-10-01,Equipment,HeavyHaul Rentals,32782.71
+1009,2023-10-01,Other,Metro Consulting,15369.73
+1009,2023-10-01,Subcontract,BrightLights Systems,66897.55
+1009,2023-11-01,Equipment,Metro Equipment Rentals,55093.05
+1009,2023-11-01,Materials,WaterWorks Supply,110429.22
+1009,2023-11-01,Subcontract,Precision Paving LLC,57371.09
+1009,2023-12-01,Materials,Residence Supply Co,95197.53
+1009,2023-12-01,Equipment,GreenField Rentals,37150.37
+1009,2023-12-01,Labor,UrbanCore Builders,61438.0
+1009,2023-12-01,Subcontract,Premier Facades LLC,72277.6
+1009,2023-12-01,Other,Transit Advisory Group,19058.31
+1010,2023-01-01,Labor,ArenaBuild Contractors,63584.97
+1010,2023-01-01,Subcontract,Elite Interiors Group,41498.83
+1010,2023-01-01,Equipment,GreenField Rentals,16755.44
+1010,2023-01-01,Materials,WaterWorks Supply,36409.61
+1010,2023-02-01,Subcontract,SignalTech Systems,46994.18
+1010,2023-02-01,Other,Transit Advisory Group,9129.62
+1010,2023-02-01,Labor,ABC Construction,51164.52
+1010,2023-02-01,Equipment,Metro Equipment Rentals,26630.34
+1010,2023-02-01,Materials,SteelWorks Supply,47593.81
+1010,2023-03-01,Other,EnviroConsult Group,11173.14
+1010,2023-03-01,Labor,DataCore Construction,49277.07
+1010,2023-03-01,Equipment,CoolAir Rentals,19281.54
+1010,2023-03-01,Materials,OfficePlus Supply,50389.87
+1010,2023-03-01,Subcontract,SecureNet Cabling,40857.64
+1010,2023-04-01,Materials,Urban Steel Co,42416.85
+1010,2023-04-01,Subcontract,SecureNet Cabling,31424.16
+1010,2023-04-01,Equipment,GreenField Rentals,21596.55
+1010,2023-04-01,Other,IT Commissioning Ltd,10232.0
+1010,2023-05-01,Equipment,HeavyHaul Rentals,12890.55
+1010,2023-05-01,Labor,ArenaBuild Contractors,66695.68
+1010,2023-05-01,Subcontract,SecureNet Cabling,44634.58
+1010,2023-05-01,Materials,SolarGrid Components,59389.76
+1010,2023-06-01,Subcontract,HighSky Electrical,25901.92
+1010,2023-06-01,Labor,TransitBuild JV,51323.22
+1010,2023-06-01,Materials,Urban Steel Co,51995.61
+1010,2023-06-01,Other,IT Commissioning Ltd,7506.34
+1010,2023-06-01,Equipment,CoolAir Rentals,17370.89
+1010,2023-07-01,Other,City Services Co,5911.4
+1010,2023-07-01,Subcontract,Precision Paving LLC,32408.23
+1010,2023-07-01,Materials,WaterWorks Supply,75763.89
+1010,2023-08-01,Other,City Services Co,12136.12
+1010,2023-08-01,Subcontract,Precision Paving LLC,27005.62
+1010,2023-08-01,Equipment,GreenField Rentals,16034.43
+1010,2023-08-01,Materials,WaterWorks Supply,57197.64
+1010,2023-09-01,Equipment,HeavyHaul Rentals,24564.98
+1010,2023-09-01,Subcontract,Elevate Interiors,32746.81
+1010,2023-09-01,Other,City Services Co,10364.26
+1010,2023-10-01,Other,City Services Co,8726.17
+1010,2023-10-01,Materials,WaterWorks Supply,40708.22
+1010,2023-10-01,Equipment,HeavyHaul Rentals,15961.44
+1010,2023-10-01,Labor,Prime Builders Inc,55620.25
+1010,2023-10-01,Subcontract,Precision Paving LLC,28439.68
+1010,2023-11-01,Subcontract,Elite Plumbing Group,26977.25
+1010,2023-11-01,Labor,DataCore Construction,55685.8
+1010,2023-11-01,Equipment,Stadium Rentals Inc,26683.85
+1010,2023-12-01,Other,DesignPartners Ltd,7037.23
+1010,2023-12-01,Equipment,HighLift Rentals,27675.24
+1010,2023-12-01,Materials,ServerRack Supply Co,53482.13
+1010,2023-12-01,Subcontract,PipeMasters LLC,27359.87
+1011,2023-03-01,Subcontract,PipeMasters LLC,50634.45
+1011,2023-03-01,Materials,SportsField Supply Co,58749.04
+1011,2023-03-01,Equipment,HighLift Rentals,25142.82
+1011,2023-04-01,Equipment,CoolAir Rentals,21601.84
+1011,2023-04-01,Subcontract,HighSky Electrical,32372.63
+1011,2023-04-01,Materials,BlueRiver Supplies,50326.83
+1011,2023-05-01,Equipment,CoolAir Rentals,14919.07
+1011,2023-05-01,Subcontract,SecureNet Cabling,20883.58
+1011,2023-05-01,Labor,TransitBuild JV,48586.76
+1011,2023-05-01,Materials,Urban Rail Supply,36219.69
+1011,2023-06-01,Other,LogiConsult Partners,9648.24
+1011,2023-06-01,Subcontract,Premier Facades LLC,27622.99
+1011,2023-06-01,Materials,Scholars Supply Co,52306.45
+1011,2023-06-01,Equipment,HighLift Rentals,27912.25
+1011,2023-06-01,Labor,Campus Builders LLC,41901.28
+1011,2023-07-01,Equipment,HeavyHaul Rentals,17641.71
+1011,2023-07-01,Subcontract,Elite Interiors Group,47610.38
+1011,2023-07-01,Other,EnviroConsult Group,5287.96
+1011,2023-08-01,Labor,Prime Builders Inc,39319.5
+1011,2023-08-01,Materials,ServerRack Supply Co,67312.57
+1011,2023-08-01,Equipment,Metro Equipment Rentals,20150.83
+1011,2023-08-01,Subcontract,PipeMasters LLC,35154.95
+1011,2023-09-01,Labor,Prime Builders Inc,40602.51
+1011,2023-09-01,Materials,ServerRack Supply Co,54612.94
+1011,2023-09-01,Subcontract,HighSky Electrical,18776.33
+1011,2023-09-01,Other,SchoolBoard Services,13319.2
+1011,2023-10-01,Subcontract,BrightLights Systems,25219.45
+1011,2023-10-01,Labor,ArenaBuild Contractors,41271.28
+1011,2023-10-01,Materials,ServerRack Supply Co,49059.3
+1011,2023-10-01,Equipment,CoolAir Rentals,16555.19
+1011,2023-10-01,Other,City Services Co,9435.25
+1011,2023-11-01,Labor,ArenaBuild Contractors,41982.62
+1011,2023-11-01,Materials,Urban Steel Co,68859.26
+1011,2023-11-01,Equipment,HeavyHaul Rentals,17687.88
+1011,2023-11-01,Subcontract,Elevate Interiors,32427.12
+1011,2023-11-01,Other,Metro Consulting,11952.34
+1011,2023-12-01,Materials,Urban Rail Supply,45872.28
+1011,2023-12-01,Equipment,Metro Equipment Rentals,25795.83
+1011,2023-12-01,Labor,Sunrise Construction,48417.04
+1011,2023-12-01,Subcontract,SignalTech Systems,33806.3
+1012,2023-04-01,Subcontract,Premier Facades LLC,58842.48
+1012,2023-04-01,Materials,OfficePlus Supply,96413.2
+1012,2023-04-01,Labor,Lakeview Construction,119979.19
+1012,2023-04-01,Other,EnviroConsult Group,25797.25
+1012,2023-05-01,Labor,PrimeFit Contractors,101061.64
+1012,2023-05-01,Subcontract,Precision Paving LLC,116606.12
+1012,2023-05-01,Equipment,HeavyHaul Rentals,45145.95
+1012,2023-06-01,Materials,SolarGrid Components,115519.63
+1012,2023-06-01,Other,City Services Co,48158.94
+1012,2023-06-01,Subcontract,SecureNet Cabling,123354.75
+1012,2023-06-01,Equipment,GreenField Rentals,31817.23
+1012,2023-06-01,Labor,PrimeFit Contractors,65811.74
+1012,2023-07-01,Materials,OfficePlus Supply,108373.87
+1012,2023-07-01,Labor,Campus Builders LLC,126755.3
+1012,2023-07-01,Other,Transit Advisory Group,22475.02
+1012,2023-07-01,Equipment,HeavyHaul Rentals,29130.59
+1012,2023-07-01,Subcontract,HighSky Electrical,69231.7
+1012,2023-08-01,Subcontract,Precision Paving LLC,93314.81
+1012,2023-08-01,Other,IT Commissioning Ltd,14619.22
+1012,2023-08-01,Labor,UrbanCore Builders,125384.42
+1012,2023-09-01,Other,City Services Co,23293.42
+1012,2023-09-01,Equipment,Stadium Rentals Inc,62089.02
+1012,2023-09-01,Subcontract,Elite Interiors Group,79649.76
+1012,2023-09-01,Materials,SolarGrid Components,99555.12
+1012,2023-10-01,Other,DesignPartners Ltd,21177.12
+1012,2023-10-01,Labor,Sunrise Construction,106581.55
+1012,2023-10-01,Equipment,HighLift Rentals,32478.77
+1012,2023-11-01,Equipment,Stadium Rentals Inc,43855.1
+1012,2023-11-01,Materials,SportsField Supply Co,158900.24
+1012,2023-11-01,Other,EnviroConsult Group,21856.06
+1012,2023-11-01,Labor,PrimeFit Contractors,121081.03
+1012,2023-11-01,Subcontract,Elevate Interiors,62795.08
+1012,2023-12-01,Labor,ArenaBuild Contractors,107877.52
+1012,2023-12-01,Equipment,HighLift Rentals,33439.17
+1012,2023-12-01,Materials,Urban Steel Co,111377.94
+1012,2023-12-01,Other,Transit Advisory Group,21230.99
+1012,2023-12-01,Subcontract,SignalTech Systems,45190.75
